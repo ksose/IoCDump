@@ -1,0 +1,10 @@
+TARGETNAME=DrvDump
+TARGETTYPE=DRIVER
+
+
+INCLUDES=$(INCLUDES);..\inc
+
+TARGETLIBS= $(TARGETLIBS) 
+
+SOURCES=DrvDump.c   \
+        DrvDump.rc
